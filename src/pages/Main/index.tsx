@@ -1,10 +1,9 @@
-import React, { useEffect, useState } from 'react'
-import './App.css';
-import { IProduct } from './interfaces/Product';
-import { ProductService } from './services/product.service';
-import { CardProduct } from './components/CardProduct';
-import { CategoryService } from './services/category.service';
-import { Navbar } from './components/Navbar';
+import React, { useEffect, useState } from 'react' 
+import { IProduct } from '../../interfaces/Product';
+import { ProductService } from '../../services/product.service';
+import { CardProduct } from '../../components/CardProduct';
+import { CategoryService } from '../../services/category.service';
+import { Navbar } from '../../components/Navbar';
 
 
 export default function App() {
@@ -67,9 +66,7 @@ export default function App() {
                   <CardProduct item={item}/>
                 )
               })
-             }
-
-
+             }  
              
         </div>
     </div>
