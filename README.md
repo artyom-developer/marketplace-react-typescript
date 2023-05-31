@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Marketplace 
 
 Marketplace made with React Typescript and Tailwinds CSS
 
